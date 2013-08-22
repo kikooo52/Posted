@@ -10,7 +10,7 @@ using System.Configuration;
 
 namespace Posted.Controllers
 {
-    public class PostsController : ApiController
+    public class PostsController : ApiController 
     {
         public static readonly string mongoUrl = ConfigurationManager.AppSettings["MONGOLAB_URI"];//"mongodb://appharbor_9b90a2b5-eaea-4e1b-808a-dc8cb6c96fd6:fh7dqrf7fqukmdsebbhhjepes4@ds039088.mongolab.com:39088/appharbor_9b90a2b5-eaea-4e1b-808a-dc8cb6c96fd6";
         public static readonly string mongoDatabase = "appharbor_9b90a2b5-eaea-4e1b-808a-dc8cb6c96fd6";
